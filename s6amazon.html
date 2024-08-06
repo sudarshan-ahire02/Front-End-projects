@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <style>
+        div.A1{
+            position: relative;
+            padding: 10px;
+            background-color: rgb(3, 3, 3);
+            margin-top: 8px;
+            width: 99%;
+            height: 60px; 
+            cursor: pointer;  
+        }
+        #img{
+            position: absolute;
+            width: 130px;
+            margin-top: 12px;
+          
+        }
+        #s1{
+            position: absolute;
+            color: rgb(168, 177, 185);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 10px; 
+            margin-left: 190px;
+            margin-top: 15px;
+            
+        }
+        #s2{
+            position: absolute;
+            color: aliceblue;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px; 
+            margin-left: 180px;
+            margin-top: 30px;
+        }
+        .bi{
+            position: absolute;
+            margin-left: 150px;
+            margin-top: 20px;
+             color: white;
+        }
+        #s3{
+            position: absolute;
+            cursor: pointer;
+            outline: none;
+            border-right: none;
+            padding: 11px;
+            margin: 9px;
+            width: 64px;
+            font-size: 14px;
+            margin-left: 320px;
+            border-top-left-radius:4px ;
+            border-bottom-left-radius: 4px;
+        }
+        #s4{
+            position: absolute;
+            padding: 11px;
+            margin: 9px;
+            width: 50%;
+            font-size: 14px;
+            margin-left: 370.5px;
+            outline-color: orange;
+
+        }
+         .bi-search {
+            position: absolute;
+            background-color: rgb(236, 180, 107);
+            color: rgb(19, 18, 18);
+            padding: 11.3px;
+            margin: 9px;
+            width: 30px;
+            font-size: 14px;
+            margin-left:70.8%;
+           border-top-right-radius:4px ;
+           border-bottom-right-radius: 4px;
+         }
+         #s5{
+              position: absolute;
+              border-radius: 50%;
+              width: 30px;
+              color: white;
+              margin: 16px;
+              margin-left:78%;
+
+         }
+         #s6{
+            position: absolute;
+            cursor: pointer;
+            outline: none;
+            border-right: none;
+            padding: 11px;
+            margin: 9px;
+            width: 90px;
+            font-size: 14px;
+            margin-left:80%;
+           border-radius: 20px;
+         }
+         #s7{
+            position: absolute;
+            font-size: larger;
+            border: 3px solid  rgb(5, 5, 5);
+            color: rgb(250, 248, 248);
+            margin-left:86%;
+            margin-top: 20px;
+         }
+         #s7:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        .bi-person-fill{
+             position: absolute;
+             color: rgb(240, 236, 236);
+             margin: 20px;
+             margin-left:90%;
+        }
+        #s8{
+            position: absolute;
+            font-size: larger;
+            color: white;
+            margin-left:94%;
+            margin-top: 20px;
+            border: 3px solid  rgb(5, 5, 5);
+
+        }
+        #s8:hover{
+                color: orange;
+                border-bottom-color: orange;
+        }
+        .bi-cart3{
+                  position: absolute;
+                  color: orange;
+                  margin-left:97%;
+                  margin-top: 16px;
+
+        }
+        div.A2{
+                 position: absolute;
+                 background-color: rgb(61, 63, 63);
+                 width:99.2%;
+                 height: 40px;
+                
+        }
+        .bi-list{
+                 position: absolute;
+                 color:white;
+                 margin-left:18px;
+                 margin-top:6px;
+       }       
+        
+        #s9{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size:21px;
+            margin-left:48px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s9:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s10{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:110px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s10:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s11{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:250px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s11:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s12{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:420px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s12:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s13{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:530px;
+            margin-top:6px;
+            cursor: pointer;
+        }
+        #s13:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s14{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:660px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s14:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s15{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:840px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s15:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s16{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:970px;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s16:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        #s17{
+            position: absolute;
+            border: 3px solid  rgb(61, 63, 63);
+            color:white;
+            font-size: large;
+            margin-left:60%;
+            margin-top:5px;
+            cursor: pointer;
+        }
+        #s17:hover{
+                color: orange;
+                border-bottom-color: orange;
+
+        }
+        .img{
+             position:relative;
+             margin-top: 40px;
+
+        }
+       
+        .box1{
+              position: absolute;
+             border: 2px solid;
+             width: 440px;
+             height: 331px;
+              margin-top: -450px;
+              margin-left: 25px;
+        } 
+       .box2{
+              position: absolute;
+              border: 2px solid;
+              width: 440px;
+              height: 331px; 
+              margin-top: -450px;
+              margin-left: 492px;
+             
+        } 
+        .box3{
+              position: absolute;
+              border: 2px solid;
+              width: 440px;
+              height: 331px;
+              margin-top: -450px;
+              margin-left: 50.7%;
+             
+        } 
+        .box4{
+              position: absolute;
+              border: 2px solid;
+              width: 440px;
+              height: 331px;
+              margin-top: -450px;
+              margin-left:75.2%;
+             
+        } 
+ .A3{
+    position: relative;
+    background-color: white;
+    /* border: 2px solid; */
+    width: 320px;
+    height: 370px;
+    padding: 20px;
+    margin:10px;
+}
+#p1{
+    position: absolute;
+    width: 145px;
+    height: 90px;
+    margin-top:10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.jean{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p2{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+    /* transform: rotate(-45deg); */
+}
+.tops{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 165px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p3{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 10px;
+    width: 145px;
+    height: 90px;
+    cursor: pointer;
+}
+.Dresses{
+    position: absolute;
+    margin-top: 255px;
+    margin-left:30px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p4{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+}
+.shose{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 180px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+.bdiv1{
+    position: absolute;
+    margin-top: 290px;
+    margin-left:110px;
+    cursor: pointer;
+    
+}
+.A4{
+    position:absolute;
+    background-color: white;
+    /* border: 2px solid; */
+    width: 320px;
+    height: 370px;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top:-418px;
+}
+#p5{
+    position: absolute;
+    width: 145px;
+    height: 90px;
+    margin-top:10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.boAt{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p6{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+    /* transform: rotate(-45deg); */
+}
+.boult{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 165px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p7{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 10px;
+    width: 145px;
+    height: 90px;
+    cursor: pointer;
+}
+.Noise{
+    position: absolute;
+    margin-top: 255px;
+    margin-left:30px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p8{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+}
+.Zebronics{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 180px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+.bdiv2{
+    position: absolute;
+    margin-top: 290px;
+    margin-left:110px;
+    cursor: pointer;
+    
+}
+.A5{
+    position:absolute;
+    background-color: white;
+    /* border: 2px solid; */
+    width: 320px;
+    height: 360px;
+    padding: 10px;
+    margin-left:53%;
+    margin-top:-418px;
+}
+#p9{
+    position: absolute;
+    width: 145px;
+    height: 90px;
+    margin-top:10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Air{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p10{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+    /* transform: rotate(-45deg); */
+}
+.Refrigerator{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 165px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p11{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 10px;
+    width: 145px;
+    height: 90px;
+    cursor: pointer;
+}
+.Microwaves{
+    position: absolute;
+    margin-top: 255px;
+    margin-left:30px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p12{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+}
+.machines{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 180px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+.bdiv3{
+    position: absolute;
+    margin-top: 290px;
+    margin-left:110px;
+    cursor: pointer;
+    
+}
+.A6{
+    position:absolute;
+    background-color: white;
+    /* border: 2px solid; */
+    width: 320px;
+    height: 370px;
+    padding: 10px;
+    margin-left:80%;
+    margin-top:-418px;
+}
+#p13{
+    position: absolute;
+    width: 145px;
+    height: 90px;
+    margin-top:10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Cleaning{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p14{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+    /* transform: rotate(-45deg); */
+}
+.Tyre{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 165px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p15{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 10px;
+    width: 145px;
+    height: 90px;
+    cursor: pointer;
+}
+.Helmets{
+    position: absolute;
+    margin-top: 255px;
+    margin-left:30px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+#p16{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 165px;
+    width: 140px;
+    height: 90px;
+    cursor: pointer;
+}
+.cleaner{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 180px;
+    font-size: 13px;
+    color: #616161;
+    cursor: pointer;
+}
+.bdiv4{
+    position: absolute;
+    margin-top: 290px;
+    margin-left:110px;
+    cursor: pointer;
+    
+}
+.A7{
+    padding:30px;
+    margin:10px;
+    
+}
+        
+.footer{
+  position: relative;
+  padding:0px;
+  display: flex;
+  width: 100%;
+  height:475px;
+  background-color: rgb(31, 29, 29);
+  /* margin-top:px; */
+  align-items:center;
+  justify-content:space-around;
+
+}
+.list1{
+  position: absolute;
+  list-style: none;
+  color: white;
+  margin-bottom:200px;
+  margin-right:65%;
+        
+}
+.list2{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:12.2%;
+  margin-right:30%;
+        
+}
+.list3{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-top:0px;
+  margin-left:10%;
+        
+}
+.list4{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:72px;
+  margin-left:55%;
+        
+}
+.end{
+  position: absolute;
+  color: aliceblue;
+  margin-top:-75px;
+  margin-left:45%;
+   
+}
+
+
+
+
+  
+
+
+    </style>
+</head>
+<body>
+    <div class="A1">
+        <img src="/image/amazon-logo.svg" id="img" alt="">
+        <div>
+           <h1 id="s1">Deliver to Ahire</h1>
+           <h1 id="s2"> Manmad 423104</h1>
+           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg>
+           <select name="" id="s3"> 
+            <option value="All Categories">All Categories</option>
+            <option value="Appliances">Appliances</option>
+            <option value="App Game">App Game</option>
+            <option value="Baby">Baby</option>
+            <option value="Beauty">Beauty</option>
+            <option value="Book">Book</option>
+            <option value="cloth">cloth</option>
+            <option value="Deal">Deal</option>
+            <option value="Electronic">Electronic</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Music">Music</option>
+            <option value="Prime video">Prime video</option>
+            
+          </select> 
+          <input type="text" id="s4" placeholder="Search Amazon.in">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg> 
+          <img src="/image/flag.jpeg" alt="" id="s5">
+          <select name="Eng" id="s6">
+            <option value="English - EN">English - EN</option>
+            <option value=" हिन्दी - HI "> हिन्दी - HI </option>
+            <option value=" தமிழ் - TA "> தமிழ் - TA </option>
+            <option value=" తెలుగు - TE "> తెలుగు - TE </option>
+            <option value="ಕನ್ನಡ - KN ">ಕನ್ನಡ - KN </option>
+            <option value=" മലയാളം - ML "> മലയാളം - ML </option>
+            <option value=" বাংলা - BN  "> বাংলা - BN  </option>
+            <option value=" मराठी - MR"> मराठी - MR</option>
+            </select>
+        <text id="s7">LOGIN</text>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg>
+          <text id="s8"> CART</text>
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg>
+        </div>
+    </div>
+
+    <div class="A2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg> 
+           <text id="s9">All</text>
+              <text id="s10">Today's Deal</text>
+              <text id="s11">Customer Service </text>
+              <text id="s12">Registry</text>
+              <text id="s13">Gift Cards</text> 
+              <text id="s14">Amazon miniTV</text> 
+              <text id="s15">Buy Again</text> 
+              <text id="s16">Amazon Pay</text> 
+              <text id="s17">Health,Household & Personal Care</text> 
+             </div>
+             <div class="img">
+                <img src="/image/amazon 2.jpg" alt="" width="100%" height="900px">
+              <div class="box1">
+                <img  src="/image/d9.jpg" alt="">
+                <text></text>
+              </div>
+              <div class="box2">
+                <img src="/image/d10.jpg" alt="">
+              </div>
+              <div class="box3">
+                 <img src="/image/d11.jpg" alt="">
+              </div>
+              <div class="box4">
+                  <img src="/image/d12.jpg" alt="">
+              </div>
+             </div>
+
+             <div class="A3">
+              <div class="s1">
+               <h2>Revamp your home in style</h2>
+              </div>
+                <img src="/image/k1.jpg" alt="" id="p1">
+                <p class="jean">Cushion covers, bedsheets</p>
+                 <img src="/image/k2.jpg" alt=""id="p2">
+                 <p class="tops">Figurines,vases & more</p>
+                 <img src="/image/k3.jpg" alt=""id="p3">
+                 <p class="Dresses">Home storage</p>
+                 <img src="/image/k4.jpg" alt=""id="p4">
+                 <p class="shose">Lighting solutions</p>
+                  <div class="bdiv1">
+                    <a class="links" target="_blank" href="https://www.amazon.in/b/?_encoding=UTF8&node=1380442031&pd_rd_w=ZRdcS&content-id=amzn1.sym.efb1e9d0-673b-4eab-a2d2-9f45afc4552c&pf_rd_p=efb1e9d0-673b-4eab-a2d2-9f45afc4552c&pf_rd_r=ADEJ4HVQ3Q08NZ54DK6D&pd_rd_wg=ZE6ep&pd_rd_r=a8102126-6147-4954-8c70-7addfd997b67&ref_=pd_hp_d_atf_unk"> see all deals</a>
+
+                  </div>
+                  </div>
+               
+                  <div class="A4">
+                    <div class="s2">
+                     <h2>Starting ₹149 | Headphones</h2>
+                    </div>
+                      <img src="/image/k5.jpg" alt="" id="p5">
+                      <p class="boAt"> Starting ₹249 | boAt</p>
+                       <img src="/image/k6.jpg" alt=""id="p6">
+                       <p class="boult">Starting ₹349 | boult</p>
+                       <img src="/image/k7.jpg" alt=""id="p7">
+                       <p class="Noise">Starting ₹649 | Noise</p>
+                       <img src="/image/k8.jpg" alt=""id="p8">
+                       <p class="Zebronics">Starting ₹149 | Zebronics</p>
+                        <div class="bdiv2">
+                          <a class="links" target="_blank" href="https://www.amazon.in/b/?_encoding=UTF8&ie=UTF8&node=1388921031&pd_rd_w=DOtql&content-id=amzn1.sym.48d2178a-5f7b-4af5-98b8-fc7b096852d4&pf_rd_p=48d2178a-5f7b-4af5-98b8-fc7b096852d4&pf_rd_r=K7HN96XTJ2H18D69NHAR&pd_rd_wg=ozjvs&pd_rd_r=7078c65d-080b-4be6-adbf-8b7e243e3f7f&ref_=pd_hp_d_atf_unk"> see all offers</a>
+      
+                        </div>
+                        </div>
+
+                        <div class="A5">
+                            <div class="s3">
+                             <h2>Appliances for your home | Up to 55% off</h2>
+                            </div>
+                              <img src="/image/k9.jpg" alt="" id="p9">
+                              <p class="Air">Air conditioners</p>
+                               <img src="/image/k10.jpg" alt=""id="p10">
+                               <p class="Refrigerator">Refrigerators</p>
+                               <img src="/image/k11.jpg" alt=""id="p11">
+                               <p class="Microwaves">Microwaves</p>
+                               <img src="/image/k12.jpg" alt=""id="p12">
+                               <p class="machines">Washing machines</p>
+                                <div class="bdiv3">
+                                  <a class="links" target="_blank" href="https://www.amazon.in/s?bbn=84514735031&rh=n%3A84514735031%2Cp_85%3A10440599031&_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pd_rd_r=7078c65d-080b-4be6-adbf-8b7e243e3f7f&pd_rd_w=OyRsT&pd_rd_wg=ozjvs&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=K7HN96XTJ2H18D69NHAR&ref=pd_hp_d_atf_unk"> see more</a>
+              
+         </div>
+         </div>
+
+        <div class="A6">
+         <div class="s4">
+         <h2>Automotive essentials | Up to 60% off</h2>
+         </div>
+         <img src="/image/k13.jpg" alt="" id="p13">
+         <p class="Cleaning">Cleaning accessories</p>
+         <img src="/image/k14.jpg" alt=""id="p14">
+         <p class="Tyre ">Tyre & rim care</p>
+         <img src="/image/k15.jpg" alt=""id="p15">
+         <p class="Helmets">Helmets</p>
+         <img src="/image/k16.jpg" alt=""id="p16">
+         <p class="cleaner">Vacuum cleaner</p>
+         <div class="bdiv4">
+          <a class="links" target="_blank" href="https://www.amazon.in/b/?_encoding=UTF8&ie=UTF8&node=4772060031&pd_rd_w=uiip9&content-id=amzn1.sym.9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=K7HN96XTJ2H18D69NHAR&pd_rd_wg=ozjvs&pd_rd_r=7078c65d-080b-4be6-adbf-8b7e243e3f7f&ref_=pd_hp_d_atf_unk"> see more</a>
+                      
+         </div>
+         </div>
+         <div class="A7">
+            <div class="s5">
+                <h3>Up to 50% off |Best Sellers in Grocery & Gourmet Foods</h3>
+            </div>
+            
+            <img src="/image/a1.jpg" id="img11" style="padding:20px;">
+            <img src="/image/a2.jpg" id="img12"style="padding:20px;">
+            <img src="/image/a3.jpg" id="img13"style="padding:20px;">
+            <img src="/image/a4.jpg" id="img14"style="padding:20px;">
+            <img src="/image/a5.jpg" id="img15"style="padding:10px;">
+            <img src="/image/a6.jpg" id="img16"style="padding:10px;">
+            <img src="/image/a7.jpg" id="img17"style="padding:10px;">
+            <img src="/image/a8.jpg" id="img18"style="padding:10px;">
+            <img src="/image/a9.jpg" id="img19"style="padding:10px;">
+              <a href="https://www.amazon.in/alm/category/ref=s9_ot_cg_SBCT14_2c1_w?almBrandId=ctnow&node=4859482031&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=alm-storefront-desktop-dram-top-1&pf_rd_r=1JARPBM113621BG9CANS&pf_rd_t=0&pf_rd_p=bfd99b05-5b83-48ce-afc7-41aab658308b&pf_rd_i=FMCDummyValue">see more</a>
+        </div>
+        <div class="A8">
+            <div class="s6">
+                <h3>Up to 60% off | Car & bike accessories & more</h3>
+            </div>
+            
+            <img src="/image/a10.jpg" id="img1" style="padding:20px;">
+            <img src="/image/a11.jpg" id="img2"style="padding:20px;">
+            <img src="/image/a12.jpg" id="img3"style="padding:20px;">
+            <img src="/image/a13.jpg" id="img4"style="padding:20px;">
+            <img src="/image/a14.jpg" id="img5"style="padding:10px;">
+            <img src="/image/a15.jpg" id="img6"style="padding:10px;">
+            <img src="/image/a16.jpg" id="img7"style="padding:10px;">
+            <img src="/image/a17.jpg" id="img8"style="padding:10px;"><br>
+            <a href="https://www.amazon.in/b/ref=AF_WIN_bub_w_cml_t_4?pf_rd_r=QJ5Q7N9APJ34E50R1KCZ&pf_rd_p=b221a40d-45e5-4208-a190-5f56a3846b10&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-1&pf_rd_t=&pf_rd_i=976442031&ie=UTF8&node=4772060031&ref_=HaloPC_un_AutomotiveProducts_t4">see more</a>
+        
+        </div>
+        <br><br>
+        <img src="/image/aa1.png" alt="" width="100%">
+    
+     
+    <div class="footer">
+         <ul class="list1">
+          <h2>Get to Know Us</h2>
+            <li><a href="">About Us</a></li><br>
+            <li><a href="">Careers</a></li><br>
+            <li><a href="">Press Releases</a></li><br>
+            <li><a href="">Amazon Science</a></li>
+           
+        </ul>
+        <ul class="list2">
+          <h2> Connect with Us</h2>
+            <li ><a href="">Facebook</a></li><br>
+            <li><a href="">Twitter</a></li><br>
+            <li><a href="">Instagram</a></li>
+           
+        </ul>
+        <ul class="list3">
+          <h2>Make Money with Us</h2>
+            <li><a href="">Sell on Amazon</a></li><br>
+            <li><a href="">Sell under Amazon Accelerator</a></li><br>
+            <li><a href="">Protect and Build Your Brand</a></li><br>
+            <li><a href="">Amazon Global Selling</a></li><br>
+            <li><a href="">Become an Affiliate</a></li><br>
+            <li><a href="">Fulfilment by Amazon</a></li><br>
+            <li><a href="">Advertise Your Products</a></li><br>
+            <li><a href="">Amazon Pay on Merchants</a></li><br>
+
+        </ul>
+        <ul class="list4">
+          <h2>Let Us Help You</h2>
+            <li><a href="">COVID-19 and Amazon</a> </li><br>
+            <li><a href="">Your Account</a></li><br>
+            <li><a href="">Returns Centres</a></li><br>
+            <li><a href="">Recalls and Product Safety Alerts</a></li><br>
+            <li><a href="">100% Purchase Protection</a></li><br>
+            <li><a href="">Amazon App Download</a></li><br>
+            <li><a href="">Help</a></li>
+
+        </ul>
+
+    </div>
+
+</div>
+<div class="end">
+    <h1>
+      Amazon.in 
+    </h1>
+    <h2>
+    </h2>
+</div>
+</body>
+
+</html>
